@@ -101,7 +101,7 @@ public class VarastoTest {
     @Test
     public void kayttokelvotonNolla2() {
         Varasto varasto2 = new Varasto(-10, 0);
-        assertEquals(2s, varasto2.getTilavuus(), vertailuTarkkuus);
+        assertEquals(0, varasto2.getTilavuus(), vertailuTarkkuus);
     }
     @Test
     public void toStringTesti() {
